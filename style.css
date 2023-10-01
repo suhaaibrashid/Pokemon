@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main .navbarone {
+    background-color: hsl(0, 0%, 96.08%);
+    border: 2px solid hsl(0, 0%, 96.08%);
+    text-align: center;
+    height: 85px;
+}
+
+.main .navbarone .one {
+    background-color: red;
+    margin-bottom: 20px;
+    width: 130px;
+    height: auto;
+}
+
+.main .navbarone .one:hover,
+.two:hover {
+    opacity: 0.3;
+}
+
+.main .navbarone .two {
+    background-color: red;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 80px;
+}
+
+.main .navbartwo {
+    background-color: white;
+    border: 1px solid rgb(145, 145, 145);
+    text-align: center;
+    height: 113px;
+}
+
+.navbartwo .picone,
+.pictwo,
+.picthree,
+.picfour,
+.picfive,
+.picsix,
+.picseven {
+    width: 140px;
+    height: 120px;
+}
+
+.navbartwo .picone {
+    border: 8px solid white;
+    border-bottom-color: rgb(145, 145, 145);
+}
+
+.navbartwo .pictwo:hover {
+    background-color: rgb(227, 53, 13);
+}
+
+.navbartwo .pictwo {
+    border: 8px solid white;
+    border-bottom-color: rgb(227, 53, 13);
+}
+
+.navbartwo .picthree:hover {
+    background-color: rgb(238, 107, 47);
+}
+
+.navbartwo .picthree {
+    border: 8px solid white;
+    border-bottom-color: rgb(238, 107, 47);
+}
+
+.navbartwo .picfour:hover {
+    background-color: rgb(230, 188, 47);
+}
+
+.navbartwo .picfour {
+    border: 8px solid white;
+    border-bottom-color: rgb(230, 188, 47);
+}
+
+.navbartwo .picfive:hover {
+    background-color: rgb(77, 173, 91);
+}
+
+.navbartwo .picfive {
+    border: 8px solid white;
+    border-bottom-color: rgb(77, 173, 91);
+}
+
+.navbartwo .picsix:hover {
+    background-color: rgb(48, 167, 215);
+}
+
+.navbartwo .picsix {
+    border: 8px solid white;
+    border-bottom-color: rgb(48, 167, 215);
+}
+
+.navbartwo .picseven:hover {
+    background-color: rgb(27, 83, 186);
+}
+
+.navbartwo .picseven {
+    border: 8px solid white;
+    border-bottom-color: rgb(27, 83, 186);
+}
+
+.main .body {
+    background-image: url("blackbackground.PNG");
+}
+
+.main .body .bodyone {
+    background-image: url("whitebackground.PNG");
+    height: 900px;
+}
+
+.main .body .bodyone {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main .body .bodyone .boxone {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 560px;
+    height: 550px;
+}
+
+.boxone {
+    background-color: rgb(227, 53, 13);
+}
+
+.boxone .boxonetext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodyone .boxtwo {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 260px;
+    height: 300px;
+}
+
+.boxtwo {
+    background-color: rgb(77, 173, 91);
+}
+
+.boxtwo .boxtwotext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodyone .boxthree {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 260px;
+    height: 300px;
+}
+
+.boxthree {
+    background-color: rgb(49, 49, 49);
+}
+
+.boxthree .boxthreetext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodyone .boxfour {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 360px;
+    height: 300px;
+}
+
+.boxfour {
+    background-color: rgb(230, 188, 47);
+}
+
+.boxfour .boxfourtext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodyone .boxfive {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 360px;
+    height: 350px;
+}
+
+.boxfive {
+    background-color: rgb(179, 138, 234);
+}
+
+.boxfive .boxfivetext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodyone .boxsix {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 360px;
+    height: 200px;
+}
+
+.boxsix {
+    background-color: rgb(238, 107, 47);
+}
+
+.boxsix .boxsixtext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.body .bodyone .boxone {
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.body .bodyone .boxtwo {
+    margin-left: 180px;
+}
+
+.body .bodyone .boxthree {
+    margin-left: 460px;
+    position: relative;
+    bottom: 300px;
+}
+
+.body .bodyone .boxfour {
+    margin-left: 800px;
+    position: relative;
+    bottom: 1150px;
+}
+
+.body .bodyone .boxfive {
+    margin-left: 800px;
+    position: relative;
+    bottom: 1150px;
+}
+
+.body .bodyone .boxsix {
+    margin-left: 800px;
+    position: relative;
+    bottom: 1150px;
+}
+
+.main .body .bodytwo {
+    text-align: center;
+}
+
+.body .bodythree {
+    border: 5px solid white;
+    height: 1200px;
+}
+
+.main .body .bodythree {
+    background-image: url("whitebackground.PNG");
+}
+
+.main .body .bodythree {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bodythree .more h3 {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    width: 200px;
+    height: 35px;
+    margin-left: 880px;
+    margin-top: 30px;
+}
+
+.main .body .bodythree .boxseven {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 260px;
+    height: 430px;
+}
+
+.boxseven {
+    background-color: rgb(77, 173, 91);
+}
+
+.boxseven .boxseventext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodythree .boxeight {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 260px;
+    height: 350px;
+}
+
+.boxeight {
+    background-color: rgb(238, 107, 47);
+}
+
+.boxeight .boxeighttext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodythree .boxnine {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 310px;
+    height: 400px;
+}
+
+.boxnine {
+    background-color: rgb(255, 144, 196);
+}
+
+.boxnine .boxninetext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodythree .boxten {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 310px;
+    height: 350px;
+}
+
+.boxten {
+    background-color: rgb(199, 170, 121);
+}
+
+.boxten .boxtentext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodythree .boxeleven {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 310px;
+    height: 370px;
+}
+
+.boxeleven {
+    background-color: rgb(49, 49, 49);
+}
+
+.boxeleven .boxeleventext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodythree .boxtwelve {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 310px;
+    height: 400px;
+}
+
+.boxtwelve {
+    background-color: rgb(227, 53, 13);
+}
+
+.boxtwelve .boxtwelvetext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .body .bodythree .boxthirteen {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 310px;
+    height: 200px;
+}
+
+.boxthirteen {
+    background-color: rgb(48, 167, 215);
+}
+
+.boxthirteen .boxthirteentext,
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.body .bodythree .boxseven {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.body .bodythree .boxeight {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.body .bodythree .boxnine {
+    margin-left: 500px;
+    position: relative;
+    bottom: 850px;
+}
+
+.body .bodythree .boxten {
+    margin-left: 500px;
+    position: relative;
+    bottom: 700px;
+}
+
+.body .bodythree .boxeleven {
+    margin-left: 850px;
+    position: relative;
+    bottom: 1580px;
+}
+
+.body .bodythree .boxtwelve {
+    margin-left: 850px;
+    position: relative;
+    bottom: 1550px;
+}
+
+.body .bodythree .boxthirteen {
+    margin-left: 850px;
+    position: relative;
+    bottom: 1530px;
+}
+
+.main .footnote {
+    background-color: black;
+    border: 5px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footnote .company a,
+.footnote h2,
+.footnote .terms a {
+    color: white;
+    display: flex;
+
+}
